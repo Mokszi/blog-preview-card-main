@@ -1,0 +1,30 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 7%);
+}
+
+.long_text{
+    color: hsl(0, 0%, 42%);
+}
+
+.learning{
+    display: inline;
+    padding: 2%;
+    background-color: hsl(47, 88%, 63%);
+}
