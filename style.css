@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: "Figtree", sans-serif;
     background-color: hsl(47, 88%, 63%);
@@ -21,6 +21,7 @@ body{
 }
 
 body img{
+    display: flex;
     border-radius: 3%;
     margin-bottom: 15px;
     width: auto;
@@ -28,10 +29,12 @@ body img{
 
 .element{
     display: flex;
-    border-radius: 3%;
-    margin: 5%;
+    border-radius: 5%;
+    margin: auto;
     flex-direction: column;
-    padding: 5%;
+    max-height: 100vh;
+    max-width: 45vh;
+    padding: 2%;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 7%);
     box-shadow: 10px 10px;
@@ -41,11 +44,13 @@ body img{
 }
 
 .long_text{
+    display: flex;
     color: hsl(0, 0%, 42%);
     margin-bottom: 15px;
 }
 
 .learning{
+    display: flex;
     font-weight: 800;
     margin-bottom: 15px;
     border-radius: 10%;
@@ -55,10 +60,12 @@ body img{
 }
 
 .published{
+    display: flex;
     margin-bottom: 15px;
 }
 
 .greg{
+    display: flex;
     display: flex;
 }
 
@@ -72,5 +79,6 @@ body img{
 }
 
 h2{
+    display: flex;
     font-weight: 800;
 }
